@@ -1,6 +1,6 @@
 const initialState = {
     products: {
-
+        list: []
     },
     users: {
         isSignedIn: false,
@@ -9,5 +9,6 @@ const initialState = {
         username: ""
 
     }
+
 };
 export default initialState
